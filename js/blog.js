@@ -4,9 +4,7 @@
 
  
    var Blog = Parse.Object.extend("Blog");
-   var Blogs = Parse.Collection.extend({
-     model: Blog}
-     );
+   var Blogs = Parse. Object.extend("Blogs");
 
 var blogs = new Blogs();
 blogs.fetch({
