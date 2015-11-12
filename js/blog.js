@@ -11,6 +11,7 @@ var blog = new Parse.Query(Blog);
     blog.equalTo(Blog);
     blog.find({
       success: function(Blogs) {
+       model: Blog
       }
       });
 
