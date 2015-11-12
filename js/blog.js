@@ -7,10 +7,11 @@ $(function() {
 
  
    var Blog = Parse.Object.extend("Blog");
+   var blogs = new Blogs();
    var blogs = Parse.Object.extend({
-       model: kakigajet});
+       model: Blog});
 
-var blogs = new Blogs();
+
 blogs.fetch({
     success: function(blogs) {
         console.log(blogs);
