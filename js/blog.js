@@ -8,7 +8,7 @@ $(function() {
  
    var Blog = Parse.Object.extend("Blog");
    var blogs = new Blogs();
-   var blogs = Parse.Object.extend({
+   var Blogs = Parse.Object.extend({
        model: Blog});
 
 
