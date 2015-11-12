@@ -1,0 +1,2 @@
+# kakigajet
+Semua Tentang Gajet
